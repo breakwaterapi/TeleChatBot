@@ -10,7 +10,7 @@ import logging
 import sqlite3
 from pathlib import Path
 
-from mistralai.models import AssistantMessage, UserMessage
+from mistralai.client.models import AssistantMessage, UserMessage
 
 logger = logging.getLogger(__name__)
 

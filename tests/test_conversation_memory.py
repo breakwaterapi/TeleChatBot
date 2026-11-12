@@ -1,6 +1,6 @@
 """Test conversation memory functionality."""
 
-from mistralai.models import AssistantMessage, UserMessage
+from mistralai.client.models import AssistantMessage, UserMessage
 
 from src.api.conversation_memory import ConversationMemory
 

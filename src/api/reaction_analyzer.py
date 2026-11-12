@@ -5,8 +5,8 @@ from __future__ import annotations
 import logging
 import random
 
-from mistralai import Mistral
-from mistralai.models import SystemMessage, UserMessage
+from mistralai.client import Mistral
+from mistralai.client.models import SystemMessage, UserMessage
 
 from src.config.settings import AppSettings
 

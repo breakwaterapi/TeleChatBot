@@ -8,8 +8,8 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Optional
 
-from mistralai import Mistral
-from mistralai.models import ImageURLChunk, SystemMessage, TextChunk, UserMessage
+from mistralai.client import Mistral
+from mistralai.client.models import ImageURLChunk, SystemMessage, TextChunk, UserMessage
 
 from src.api.conversation_memory import ConversationMemory
 from src.api.model_selector import TOKEN_ESTIMATION_MULTIPLIER, ModelSelector, requires_current_date
