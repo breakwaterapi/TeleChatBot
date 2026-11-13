@@ -9,7 +9,7 @@ description = "Telegram bot bridge to Mistral API"
 requires-python = ">=3.11"
 dependencies = [
     "python-telegram-bot>=21.0,<22.0",
-    "mistralai>=1.0,<2.0",
+    "mistralai>=2,<4",
     "groq>=0.25.0,<1.0",
     "pydantic>=2.0,<3.0",
     "pydantic-settings>=2.0,<3.0",
